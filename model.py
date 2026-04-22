@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-stock = yf.download("AAPL", start="2020-01-01", end="2025-01-01")
+stock = yf.download("AAPL", start="2024-01-01", end="2025-01-01")
 
 print(stock.head())
 print(stock.tail())
